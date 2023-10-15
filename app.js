@@ -164,3 +164,14 @@ wss.on('connection', ws=>{
         }).on('error',errcb('Conn-Err:',{host,port}));
     }).on('error',errcb('EE:'));
 });
+// async function visitProjectPage() {
+//   try {
+//     console.log(`Visiting project page: ${projectPageURL}`);
+//     await axios.get(projectPageURL);
+//     console.log('Page visited successfully.');
+//   } catch (error) {
+//     console.error('Error visiting project page:', error.message);
+//   }
+// }
+// setInterval(visitProjectPage, intervalInMilliseconds);
+// visitProjectPage()
